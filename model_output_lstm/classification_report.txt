@@ -1,0 +1,9 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+ No Progeria       0.96      0.91      0.94      4030
+    Progeria       0.91      0.96      0.94      3892
+
+    accuracy                           0.94      7922
+   macro avg       0.94      0.94      0.94      7922
+weighted avg       0.94      0.94      0.94      7922

@@ -1,0 +1,7 @@
+Model Parameters:
+Input shape: (10, 1)
+LSTM units: 128
+Dropout rate: 0.5
+Optimizer: adam
+Epochs: 50
+Batch size: 32
