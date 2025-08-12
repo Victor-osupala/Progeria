@@ -1,0 +1,9 @@
+Model Parameters:
+Input shape: (10, 1)
+Conv1D filters: 32
+Kernel size: 3
+LSTM units: 64
+Dropout rate: 0.3
+Optimizer: adam
+Epochs: 50
+Batch size: 32
