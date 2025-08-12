@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 # ------------------------------
 # Load model and dataset
 # ------------------------------
-model = load_model("model_output_lstm/progeria_lstm_model.h5")
+model = load_model("model_outputprogeria_cnn_lstm_model_fixed.h5")
 df = pd.read_csv("progeria_dataset_balanced.csv")
 
 # Prepare scaler from training dataset
@@ -150,5 +150,6 @@ if st.button("🔍 Predict and Show Inverse Output"):
     #     "Output (%)": [prediction[0][1]*100, prediction[0][0]*100]
     # })
     # st.dataframe(prob_df.style.format({"Model's Prediction (%)": "{:.2f}", "Output (%)": "{:.2f}"}))
+
 
 
